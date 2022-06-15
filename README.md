@@ -1,3 +1,3 @@
 # Random Quote App
 
-Gives you a random quote.
+Gives you a random quote using React
