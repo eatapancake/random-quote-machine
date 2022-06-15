@@ -16,6 +16,8 @@ function App() {
   const [randomNumber, setRandomNumber] = useState(0);
   const [color, setColor] = useState("#FF6633");
   const [randomColor, setRandomColor] = useState(3);
+
+  //Color Array for Background
   const colorArr = [
     "#FF6633",
     "#FFB399",
@@ -30,6 +32,7 @@ function App() {
     "#49ba45",
   ];
 
+  //Grabbing Quuotes
   const fetchQuotes = async (url) => {
     const response = await fetch(url);
     const json = await response.json();
